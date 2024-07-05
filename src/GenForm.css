@@ -1,0 +1,80 @@
+.gen-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gen-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gen {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.genForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+.genForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.genForm input[type="text"],
+.genForm select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.genForm input[type="text"]:focus,
+.genForm select:focus {
+    outline: none;
+    border-color: #1679AB;
+}
+
+.genForm button {
+    padding: 12px;
+    background-color: #1679AB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.genForm button:hover {
+    background-color: #135e82;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .genForm {
+        gap: 10px;
+    }
+
+    .gen-container {
+        padding: 15px;
+    }
+
+    .genForm input[type="text"],
+    .genForm select,
+    .genForm button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

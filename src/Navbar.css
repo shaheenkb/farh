@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    background-color: #074173  ; /* Soft background color */
+    padding: 1rem; /* Add padding for spacing */
+    border-radius: 1rem; /* Add border radius for softer edges */
+    justify-content:space-between;
+  }
+  
+  .nav-link {
+    /* margin-right: ; Add margin between links */
+    color: hsl(0, 0%, 100%); /* Soft text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-link:hover {
+    color: #999; /* Darken text color on hover */
+  }

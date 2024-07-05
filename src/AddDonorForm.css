@@ -1,0 +1,80 @@
+.addDonor-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addDonor-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.addDonorForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.addDonorForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+.addDonorForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.addDonorForm input[type="text"],
+.addDonorForm select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.addDonorForm input[type="text"]:focus,
+.addDonorForm select:focus {
+    outline: none;
+    border-color: #1679AB;
+}
+
+.addDonorForm button {
+    padding: 12px;
+    background-color: #1679AB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addDonorForm button:hover {
+    background-color: #135e82;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .addDonorForm {
+        gap: 10px;
+    }
+
+    .addDonor-container {
+        padding: 15px;
+    }
+
+    .addDonorForm input[type="text"],
+    .addDonorForm select,
+    .addDonorForm button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

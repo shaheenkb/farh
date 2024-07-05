@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #1679AB   ;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Soft style for labels */
+label {
+  
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 16px;
+  /* width: 250px; Set a fixed width for the label */
+ /* justify-content: flex-start; */
+ text-align: left;
+  margin-right: 10px;
+}
+
+/* Soft style for input fields */
+input[type="text"] {
+ 
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+}
+
+.form-group {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 2px;
+}
+
+.form-group label {
+  margin-right: 10px; /* Add space between label and input */
+  color: #666;
+  font-size: 16px;
+  text-align: left;
+  /* padding: 10px; */
+}
+
+.form-group input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.donor-details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.donor-details h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.donor-details .detail-container {
+  display: flex;
+  align-items: center;
+}
+
+.donor-details .detail-label {
+  color: #666;
+  font-size: 16px;
+}
+
+.donor-details .detail-value {
+  margin-left: 10px;
+}
+
+.donor-details .detail-container:not(:last-child) {
+  margin-bottom: 10px;
+}
+.donation-container{
+  margin-top:  2rem;;
+}
+.donorSearchContainer{
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  /* align-items:center; */
+
+  
+}
+.donorSearchContainer button{
+  width: 10rem;
+  margin: 0;
+  /* align-self: center; */
+}
+.donorSearchContainer input{
+  max-width: 14rem;
+}
+
+.donor-details table {
+  text-align: left;
+  border-collapse:collapse ;
+
+}
+.donor-details{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.donor-details button{
+ max-width: 20rem;
+ align-self: center;
+}
+ tr{
+  /* border: .1rem solid red; */
+  padding: 8px;
+}
+td{
+  border: .2rem solid black;
+  padding: .5rem;
+}
+
+.addDonorForm div{
+  text-align: left;
+  padding: 1rem;
+}

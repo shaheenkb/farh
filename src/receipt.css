@@ -1,0 +1,67 @@
+.receipt-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.receipt-header {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  font-family: Areal Print, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 auto;
+  
+}
+
+.receipt-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  font-family: Segoe Print, sans-serif;
+  
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: left; /* Align labels to the left */
+}
+
+
+
+.receipt-item {
+  margin-bottom: 10px;
+}
+.receipt-date {
+ 
+  text-align: right; 
+}
+
+.receipt-label {
+  font-size: 12px;
+  /* Align labels to the left */
+  padding-right:5px; 
+}
+
+.receipt-value {
+  margin-left: 14px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px dotted black;
+  text-align: center;
+}
+
+
+
+@media print {
+  .receipt-content button {
+    display: none; /* Hide buttons when printing */
+  }
+}

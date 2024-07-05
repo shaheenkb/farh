@@ -1,0 +1,48 @@
+body {
+  margin: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.table-header {
+  background-color: #90e0ef; /* Set your desired background color */
+}
+
+.bordered-table {
+  border-collapse: collapse; /* Collapse borders into a single border */
+
+}
+
+.bordered-table th, .bordered-table td {
+  border: 1px solid black; /* Add border to table cells */
+  padding: 8px; /* Add padding for better spacing */
+}
+/* Styling for the table header */
+table thead {
+  background-color: #90e0ef;
+  color: #ffffff; /* Assuming white text for contrast */
+}
+
+/* Styling for alternating row colors */
+table tbody tr:nth-child(odd) {
+  background-color: #f0f8ff; /* Light color for odd rows */
+}
+
+table tbody tr:nth-child(even) {
+ 
+  background-color: #f9f9f9;
+}
+
